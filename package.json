@@ -1,0 +1,38 @@
+{
+  "name": "@lynx-contrib/tailwind-preset",
+  "version": "0.0.2",
+  "description": "A tailwindcss preset for ReactLynx",
+  "keywords": [
+    "Lynx",
+    "ReactLynx",
+    "tailwindcss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lynx-family/lynx-stack.git",
+    "directory": "packages/third-party/tailwind-preset"
+  },
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Qingyu Wang",
+    "email": "colinwang.0616@gmail.com"
+  },
+  "type": "module",
+  "exports": null,
+  "main": "./lib/lynx.js",
+  "types": "./lib/lynx.d.ts",
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
